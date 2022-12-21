@@ -1,5 +1,4 @@
 - name: add env cariables
-  run: sh ./falcon-scripts/bash/install/falcon-linux-install.sh
   env:
     FALCON_CLIENT_ID: ${{ secrets.FALCON_CLIENT_ID }}
     FALCON_CLIENT_SECRET: ${{ secrets.FALCON_CLIENT_SECRET }}
