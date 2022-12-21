@@ -28,8 +28,6 @@ EOF
 }
 
 main() {
-    export FALCON_CLIENT_ID="897f64fbec544cc4b0a9a415e28c89c9"
-    export FALCON_CLIENT_SECRET="1UGWCO6lX7ZRjyMworPf2NHL9e83masbQ5dpui04"
     if [ -n "$1" ]; then
         print_usage
         exit 1
